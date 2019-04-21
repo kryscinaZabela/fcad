@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  background-color: rgb(255, 236, 236);
+}
+
+a {
+  color: #000;
+}
+
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.topline{
+  display: block;
+  color: white;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
+  margin: 30px 10px;
+  border: 1px solid #FFF;
+}
+
+.row {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 980px;
+}
+
+.rowTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  height: 140px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) scale(0.8);
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.menu ul {
+  text-align: center;
+  width: 300px;
+  border: 1px solid #FFF;
+  border-bottom: 0;
+  line-height: 40px;
+}
+
+.menu ul li {
+  padding: 0;
+  border-bottom: 1px solid #FFF;
+  overflow: hidden;
+  height: 40px;
+  transition: height .5s;
+}
+
+.menu ul li a {
+  color: #FFF;
+  background-color: rgba(0,0,0,.3);
+}
+
+.menu ul li a:hover {
+  background-color: rgba(0,0,0,.5);
+}
+
+.menu ul li:first-child:hover {
+  height: 120px;
+}
+
+.menu .menuElem {
+  display: block;
+}
+
+.social {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.social img {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 30px 20px;
+}
+
+.specials {
+  font-size: 40px;
+}
+
+.specials ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.specials ul li a {
+  display: block;
+  height: 140px;
+  overflow: hidden;
+  line-height: 200px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 20px;
+  transition-duration: .5s;
+}
+
+.specials ul a:hover {
+  transform: scale(1.1);
+}
+
+/* .specials ul li a:before {
+  content: "";
+  display: block;
+  float: left;
+  margin: .5em;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  border: 3px solid #000;
+}   */
+
+.persons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.person {
+  display: block;
+  background-color: rgba(255,255,255,.3);
+  margin: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 1px 1px 0 #000;
+  transition: box-shadow .1s;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.person:hover {
+  box-shadow: 0 1px 10px 0 #000;
+}
+
+.person .photo {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.person .name {
+  padding: 10px 0;
+}
+
+.person span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer {
+  line-height: 60px;
+  padding: 0 40px;
+  background-color: #222;
+  color: #999;
+}
+
+
+
+.white {
+  color: #FFF;
+}
+
+.toLeft {
+  text-align: left;
+}
