@@ -15,9 +15,7 @@ use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-Route::get('/', function () {
-    return view('mainpage');
-});
+Route::get('/', 'BaseController@getIndex');
 
 Route::get('/post', function () {
     return view('/post');
